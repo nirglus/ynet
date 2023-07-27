@@ -125,3 +125,22 @@ h5{
 h5:hover{
     cursor: pointer;
 }
+.firstArticle{
+    display: flex;
+    gap:1vw;
+    flex-direction: row-reverse;
+    
+}
+.firstArticle h1{
+    font-size: 3rem;
+    width: 44vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bbimg{
+    width:611px;
+    margin-top: 15px;
+}
+small{
+    color: #6e6e6e;
+}
