@@ -1,3 +1,60 @@
-h1 {
-    color:red;
+
+@font-face {
+    font-family: Narkis;
+    src: url(Narkis-Block.ttf);
+}
+body{
+    font-family: Arial, sans-serif
+}
+header{
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-ad{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+    
+}
+.ynetlogo{
+    height: 75px;
+    width: 176px;
+    margin-bottom: 24px;
+}
+.rightBar{
+    font-size: 13px;
+    display: flex;
+    align-items: baseline;
+    gap:1vw;
+}
+.forecast-img{
+    height:17px
+}
+.plus-image{
+    width: 45px;
+    height: 20px;
+
+}
+.ynetPlus-sign{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 13px;
+    padding: 0.1% 0.2% 0.1% 0.3%;
+    width: 210px;
+    gap: 10px;
+    
+}
+.loginbar{
+    display: flex;
+    gap:5%;
+    align-items: center;
+    height: 27px;
+    width:298px;
+
+}
+.connect{
+    display: flex;
 }
