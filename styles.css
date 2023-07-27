@@ -1,6 +1,7 @@
 body{
     font-family: Arial, sans-serif
 }
+/* Header */
 header{
     height: 103px;
     display: flex;
@@ -54,6 +55,9 @@ header{
 .connect{
     display: flex;
 }
+span:hover,.header-ad:hover,.ynetlogo:hover{
+    cursor: pointer;
+}
 /* Navbar */
 nav ul{
     list-style: none;
@@ -63,12 +67,16 @@ nav ul{
     justify-content: space-around; 
     align-items: flex-end;
     margin-top: 0;
+   
 }
 nav{
     background-color: rgb(222,26,26);
     height: 5vh;
     color: #fff;
-
+    
+}
+nav li{
+    margin-right: 1vw;
 }
 li:hover{
     font-weight: bolder;
@@ -80,4 +88,40 @@ li:hover{
     border-radius: 13px;
     width: 50px;
     justify-content: center;
+    margin-top: 3px;
+}
+/* News Flashes */
+.news-flashes{
+    display: flex;
+    background-color: #f3f8f9;
+    margin-top:25px;
+}
+.news-flashes p{
+    width:16vw;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.flash1:hover, .flash2:hover, .flash3:hover,.flash4:hover,.flash5:hover{
+    color: rgb(64, 8, 196);
+    cursor: pointer;
+}
+.dotted{
+    display: flex;
+    align-items: center;
+    width:0%;
+    height: 14vh;
+    border: 0.1px dotted #000;;
+    position:relative;
+    top:2vh;
+    margin: 0 0 0 1%;
+}
+.flash6{
+    display: flex;
+    align-items: center;
+}
+h5{
+    color:#f00;
+}
+h5:hover{
+    cursor: pointer;
 }
