@@ -290,7 +290,7 @@ h6, .smallAd2 p{
 .two-cards-ls-rs{ /* A div for both divs of left news side */
     display: flex;
     flex-direction: row;
-    gap: 1vw;
+    gap: 0.5vw;
     margin-top:2vh;
 }
 .two-cards-ls-rs h1{
@@ -299,6 +299,9 @@ h6, .smallAd2 p{
 }
 .newsLSL{ /*Moving left news card up */
     margin-top: -2vh;
+}
+.newsLSL h1{
+    width: 31vw
 }
 .LSR-card img{  /* Left Side Card in right side of news */
     width:190px;
@@ -334,5 +337,15 @@ h6, .smallAd2 p{
 .bi-play-circle{ /* Play Icon */
     font-size: 12px;
 }
-
+/* ------ Sports & Economy ------ */
+.kal-sport-div{
+    display: flex;
+    flex-direction: row;
+    gap: 2.3vw;
+    margin-top: -2vh;
+}
+.newsLSR h1{
+    width: 14vw;
+    margin-top: 0.1vh;
+}
 
