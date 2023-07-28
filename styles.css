@@ -55,7 +55,7 @@ header{
 .connect{
     display: flex;
 }
-span:hover,.header-ad:hover,.ynetlogo:hover{
+span:hover,.header-ad:hover,.ynetlogo:hover, img:hover{
     cursor: pointer;
 }
 /* Navbar */
@@ -71,7 +71,7 @@ nav ul{
 }
 nav{
     background-color: rgb(222,26,26);
-    height: 5vh;
+    height: 6vh;
     color: #fff;
     
 }
@@ -138,6 +138,9 @@ h5:hover{
     margin-top: 5px;
     margin-bottom: 10px;
 }
+.firstArticle h1:hover, .firstArticle p:hover{
+    cursor: pointer;
+}
 .bbimg{
     width:611px;
     margin-top: 15px;
@@ -149,16 +152,17 @@ small{
 .secondArticle{
     display: flex;
     flex-direction: row-reverse;
+    gap:1.5vw;
+    margin-top: 15px;
+    
 }
 .rightSideAds{
     display: flex;
     flex-direction: row-reverse;
     gap:0.5vw;
-    margin-top: 10px;
 }
 .smallAdImg2{
     width:300px;
-
 }
 .smallAd2{
     width:300px;
@@ -169,3 +173,55 @@ h6, .smallAd2 p{
     font-size:13px;
     margin:5px
 }
+.leftNewsBar{
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+}
+.firstBar,.thirdBar{
+    display: flex;
+    background-color: #DE1A1A;
+    color: #fff;
+    gap:1vw;
+    width:611px;
+    height: 110px; 
+    
+}
+.secondBar{
+    display: flex;
+    background-color: #1417AC;
+    color: #fff;
+    gap:1vw;
+    width:611px;
+    height: 110px; 
+}
+.forthBar{
+    display: flex;
+    background-color: #0c1c3a;
+    color: #fff;
+    gap:1vw;
+    width:611px;
+    height: 120px; 
+}
+.firstBarImg{
+    width:200px;
+}
+.firstBar h6, .secondBar h6, .thirdBar h6, .forthBar h6{
+    font-size: 17px;
+}
+.firstBar p, .secondBar p, .thirdBar p, .forthBar p{
+    font-size: 15px;
+}
+.firstBar span, .secondBar span, .thirdBar span, .forthBar span{
+    font-size: 12px;
+}
+.firstBar h6:hover, .secondBar h6:hover, .thirdBar h6:hover, .forthBar h6:hover,.smallAd2 h6:hover{
+    cursor: pointer;
+}
+.firstBar p:hover, .secondBar p:hover, .thirdBar p:hover, .forthBar p:hover, .smallAd2 p:hover{
+    cursor: pointer;
+}
+.firstBar span:hover, .secondBar span:hover, .thirdBar span:hover, .forthBar span:hover{
+    cursor: pointer;
+}
+
