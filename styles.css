@@ -125,6 +125,7 @@ h5{
 h5:hover{
     cursor: pointer;
 }
+/* Main Article */
 .firstArticle{
     display: flex;
     gap:1vw;
@@ -143,4 +144,28 @@ h5:hover{
 }
 small{
     color: #6e6e6e;
+}
+/* Second Article */
+.secondArticle{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rightSideAds{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:0.5vw;
+    margin-top: 10px;
+}
+.smallAdImg2{
+    width:300px;
+
+}
+.smallAd2{
+    width:300px;
+    border: solid #f3f3f3;
+    margin-top: 16px;
+}
+h6, .smallAd2 p{
+    font-size:13px;
+    margin:5px
 }
