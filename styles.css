@@ -152,7 +152,7 @@ small{
 .secondArticle{
     display: flex;
     flex-direction: row-reverse;
-    gap:1.5vw;
+    gap:2vw;
     margin-top: 15px;
     
 }
@@ -204,7 +204,7 @@ h6, .smallAd2 p{
     height: 120px; 
 }
 .firstBarImg{
-    width:200px;
+    width:200px; 
 }
 .firstBar h6, .secondBar h6, .thirdBar h6, .forthBar h6{
     font-size: 17px;
@@ -223,5 +223,48 @@ h6, .smallAd2 p{
 }
 .firstBar span:hover, .secondBar span:hover, .thirdBar span:hover, .forthBar span:hover{
     cursor: pointer;
+}
+/* Most Hot & More Titles */
+.two-titles{
+    display: flex;
+    gap: 2vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.two-titles h1{
+    font-size: 16px;
+    padding-right: 1vw;
+}
+.right-title, .left-title{
+    display: flex;
+    background-color: #1417AC;
+    width: 611px;
+    height: 5vh;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.two-titles-imgs{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2.2vw;
+    
+}
+.two-titles-imgs h1{
+    font-size: 15px;
+}
+.two-titles-imgs h1:hover{
+    color: rgb(64, 8, 196);
+    cursor: pointer;
+}
+.two-titles-imgs img{
+    width: 183px;
+    height: 107px;
+}
+.timg-card{
+    width: 15vw;
+    height:35vh;
+    
 }
 
