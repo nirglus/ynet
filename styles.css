@@ -1,21 +1,19 @@
 body{
     font-family: Arial, sans-serif
 }
-/* Header */
+/* ------ Header ------ */
 header{
     height: 103px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 .header-ad{
     display: flex;
     justify-content: center;
-    margin-bottom: 4vh;
-    
+    margin-bottom: 4vh; 
 }
-.ynetlogo{
+.ynetlogo{ /* Center logo */
     height: 75px;
     width: 176px;
     margin-bottom: 24px;
@@ -41,7 +39,6 @@ header{
     padding: 0.1% 0.2% 0.1% 0.3%;
     width: 210px;
     gap: 10px;
-    
 }
 .loginbar{
     display: flex;
@@ -58,7 +55,7 @@ header{
 span:hover,.header-ad:hover,.ynetlogo:hover, img:hover{
     cursor: pointer;
 }
-/* Navbar */
+/* ------ Navbar ------ */
 nav ul{
     list-style: none;
     display: flex;
@@ -67,13 +64,11 @@ nav ul{
     justify-content: space-around; 
     align-items: flex-end;
     margin-top: 0;
-   
 }
 nav{
     background-color: rgb(222,26,26);
     height: 6vh;
     color: #fff;
-    
 }
 nav li{
     margin-right: 1vw;
@@ -90,7 +85,7 @@ li:hover{
     justify-content: center;
     margin-top: 3px;
 }
-/* News Flashes */
+/* ------ News Flashes ------ */
 .news-flashes{
     display: flex;
     background-color: #f3f8f9;
@@ -102,10 +97,10 @@ li:hover{
     font-size: 14px;
 }
 .flash1:hover, .flash2:hover, .flash3:hover,.flash4:hover,.flash5:hover{
-    color: rgb(64, 8, 196);
+    color: #1217ac;
     cursor: pointer;
 }
-.dotted{
+.dotted{  /* Border between flashes */
     display: flex;
     align-items: center;
     width:0%;
@@ -125,12 +120,11 @@ h5{
 h5:hover{
     cursor: pointer;
 }
-/* Main Article */
+/* ------ Main Article ------ */
 .firstArticle{
     display: flex;
     gap:1vw;
     flex-direction: row-reverse;
-    
 }
 .firstArticle h1{
     font-size: 3rem;
@@ -147,14 +141,14 @@ h5:hover{
 }
 small{
     color: #6e6e6e;
+    font-size: 12px;
 }
-/* Second Article */
+/* ------ Second Article ------ */
 .secondArticle{
     display: flex;
     flex-direction: row-reverse;
     gap:2vw;
     margin-top: 15px;
-    
 }
 .rightSideAds{
     display: flex;
@@ -185,7 +179,6 @@ h6, .smallAd2 p{
     gap:1vw;
     width:611px;
     height: 110px; 
-    
 }
 .secondBar{
     display: flex;
@@ -201,7 +194,7 @@ h6, .smallAd2 p{
     color: #fff;
     gap:1vw;
     width:611px;
-    height: 120px; 
+    height: 115px; 
 }
 .firstBarImg{
     width:200px; 
@@ -224,8 +217,8 @@ h6, .smallAd2 p{
 .firstBar span:hover, .secondBar span:hover, .thirdBar span:hover, .forthBar span:hover{
     cursor: pointer;
 }
-/* Most Hot & More Titles */
-.two-titles{
+/* ------ Most Hot & More Titles ------ */
+.two-titles{ /* Two blue title class */
     display: flex;
     gap: 2vw;
     margin-top: 3vh;
@@ -233,7 +226,7 @@ h6, .smallAd2 p{
 }
 .two-titles h1{
     font-size: 16px;
-    padding-right: 1vw;
+    padding-right: 1vw; 
 }
 .right-title, .left-title{
     display: flex;
@@ -241,7 +234,7 @@ h6, .smallAd2 p{
     width: 611px;
     height: 5vh;
     color: #fff;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;    
 }
 .two-titles-imgs{
@@ -249,22 +242,97 @@ h6, .smallAd2 p{
     justify-content: space-between;
     align-items:center;
     gap: 2.2vw;
-    
 }
 .two-titles-imgs h1{
-    font-size: 15px;
+    font-size: 16px;
 }
-.two-titles-imgs h1:hover{
-    color: rgb(64, 8, 196);
+.two-titles-imgs h1:hover, .two-cards-ls-rs h1:hover{
+    color: #1217ac;
     cursor: pointer;
 }
 .two-titles-imgs img{
     width: 183px;
     height: 107px;
 }
-.timg-card{
+.timg-card{ /* Most hot and more news img card */
     width: 15vw;
     height:35vh;
-    
+    line-height: 3vh
 }
+/* ------ News & Ads Section ------ */
+.newsAndAds{ 
+    display: flex;
+    margin-top: 8vh;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.adsRSide{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.btmAds{
+    display: flex;
+    justify-content: space-between;
+}
+.newsh1{ /* Title H1 */
+    font-size: 16px;
+    padding-right: 1vw; 
+}
+.newsh2{
+    font-size: 12px;
+    padding-left: 1vw;
+}
+.newsLSide{  /* Left side of News & Ads */
+    display: flex;
+    flex-direction: column;
+}
+.two-cards-ls-rs{ /* A div for both divs of left news side */
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin-top:2vh;
+}
+.two-cards-ls-rs h1{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.newsLSL{ /*Moving left news card up */
+    margin-top: -2vh;
+}
+.LSR-card img{  /* Left Side Card in right side of news */
+    width:190px;
+    height: 107px;
+}
+.LSR-card{
+    width:16vw;
+}
+.LSR-card h1, .two-cards-ls-rs h1{
+    font-size: 16px;
+}
+.LSR-card-weather{
+    width: 16vw;
+}
+.LSR-card-weather h3{
+    font-size:14px;
+    margin-top:0.1vh;
+    margin-bottom: 0.7vh;
+}
+.weather-span{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.dani-rup-img{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.dani-rup-txt{
+    font-size: 12px;
+    color: #1217ac;
+}
+.bi-play-circle{ /* Play Icon */
+    font-size: 12px;
+}
+
 
