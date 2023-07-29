@@ -400,5 +400,63 @@ h6, .smallAd2 p{
     font-weight: bold;
 }
 /* ------ YNET+ Section ------ */
+.yplus-sect{ /* Whole YNET+ Section */
+    background-color: #090d15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4vh;
+    gap: 4vh;
+    height: 110vh;
+}
+.y-sec-head{ /* Logos */
+    display: flex;
+    justify-content: center;
+}
+.ynplusimg{ 
+    width: 113px;
+    height: 41px;
+}
+.ynplus-month{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 5vw;
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 20px;
+    width: 17vw;
+    height: 41px;
+    font-size: 17px;
+    margin-top: 0.5vw;
+}
+.yp-imgs{ /* Images Section */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8vw;
+    justify-content: center;
+    position: relative;
+    text-align: right; 
+}
+.yp-cont-img img{
+    width: 371px;
+}
+.img-txt{
+    position: absolute;
+    color:#fff;
+    font-size: 12px;
+    width: 25vw;
+    margin: 0.5vw;
+}
+.i1,.i2,.i3{
+    bottom: 40vh;
+}
+.i4,.i6{
+    bottom:1vh;
+}
+.i5{
+    bottom:4vh;
+}
 
 
