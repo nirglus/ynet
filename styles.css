@@ -303,6 +303,10 @@ h6, .smallAd2 p{
 .newsLSL h1{
     width: 31vw
 }
+.newsLSR h1{
+    width: 14vw;
+    margin-top: 0.1vh;
+}
 .LSR-card img{  /* Left Side Card in right side of news */
     width:190px;
     height: 107px;
@@ -344,8 +348,57 @@ h6, .smallAd2 p{
     gap: 2.3vw;
     margin-top: -2vh;
 }
-.newsLSR h1{
-    width: 14vw;
-    margin-top: 0.1vh;
+/* ------ One & Kalkalist ------ */
+.red{
+    background-color: #b4010b;
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    align-items: center;
 }
+.t-icon img{ /* Title icons */
+    height: 3vh;
+    background: #fff;
+    border-radius: 50%;
+}
+.t-icon{
+    margin-top:0.8vh;
+}
+.kalka-one{
+    display: flex;
+    gap: 2vw;
+    align-items: baseline;
+    margin-top: -2.7vh;
+}
+.kalka-one img{
+    width: 190px;
+    height: 108px;
+    margin: 2vh
+}
+.one, .kalkalist{
+    display: flex;
+    width: 50vw;
+    height: 30vh;
+    border-bottom: #efefef solid;
+    border-left: #efefef solid;
+    border-right: #efefef  solid;
+}
+.kalka-one-txt h1{
+    font-size: 16px;
+}
+.kalka-one-txt span{
+    font-size: 14px;
+}
+.redh1{ 
+    color: #d6040f;
+}
+.klk-link{ /* Full Article Link */
+    position: relative;
+    float: left;
+    left: 2vw;
+    top: 0.5vw;
+    font-weight: bold;
+}
+/* ------ YNET+ Section ------ */
+
 
