@@ -29,16 +29,20 @@ header{
     height:17px
 }
 .plus-image{
-    width: 45px;
-    height: 20px;
+    width: 53px;
+    height: 19px;
+    padding-right: 4px;
 }
 .ynetPlus-sign{
     display: flex;
     border: 1px solid #000;
     border-radius: 13px;
-    padding: 0.1% 0.2% 0.1% 0.3%;
     width: 210px;
-    gap: 10px;
+    gap: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    height:27px;
 }
 .loginbar{
     display: flex;
@@ -54,6 +58,11 @@ header{
 }
 span:hover,.header-ad:hover,.ynetlogo:hover, img:hover{
     cursor: pointer;
+}
+#cities{
+    border:0;
+    font-family: "Narkiss Block Regular";
+    width:65px;
 }
 /* ------ Navbar ------ */
 nav ul{
@@ -115,7 +124,7 @@ li:hover{
     align-items: center;
 }
 h5{
-    color:#f00;
+    color:#de1a1a;;
 }
 h5:hover{
     cursor: pointer;
@@ -282,6 +291,7 @@ h6, .smallAd2 p{
 .newsh2{
     font-size: 12px;
     padding-left: 1vw;
+    cursor: pointer;
 }
 .newsLSide{  /* Left side of News & Ads */
     display: flex;
@@ -448,8 +458,7 @@ h6, .smallAd2 p{
     color:#fff;
     font-size: 12px;
     width: 25vw;
-    margin: 0.5vw;
-    
+    margin: 0.5vw; 
 }
 .i1,.i2,.i3{
     bottom: 40vh;
