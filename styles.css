@@ -129,6 +129,22 @@ h5{
 h5:hover{
     cursor: pointer;
 }
+.popup-icons img{
+    height: 32px;
+    width: 32px;
+}
+.hide-flash1, .hide-flash2{
+    display:none;
+    position: absolute;
+    top:425px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 6px 2px rgba(217, 217, 217, 0.5);
+}
+.flash1:hover + .hide-flash1, .flash2:hover + .hide-flash2{
+    display:flex;
+    flex-direction: column;
+}
 /* ------ Main Article ------ */
 .firstArticle{
     display: flex;
