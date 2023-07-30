@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif
+    font-family: "Narkiss Block Regular";
 }
 /* ------ Header ------ */
 header{
@@ -405,9 +405,10 @@ h6, .smallAd2 p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 4vh;
     gap: 4vh;
-    height: 110vh;
+    height: 116vh;
 }
 .y-sec-head{ /* Logos */
     display: flex;
@@ -458,5 +459,22 @@ h6, .smallAd2 p{
 .i5{
     bottom:4vh;
 }
-
-
+.month-btm{
+    display: flex;
+    color: #fff;
+    border-radius: 20px;
+    border: solid #fff;
+    width: 13vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top:5vh;
+}
+.month-btm:hover{
+    cursor: pointer;
+}
+/* ----- Missed and Before section ------ */
+.silver{
+    background-color: #556775;
+}
