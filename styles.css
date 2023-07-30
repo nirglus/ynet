@@ -129,10 +129,10 @@ h5{
 h5:hover{
     cursor: pointer;
 }
-.popup-icons img{
+.popup-icons img{ 
     height: 32px;
     width: 32px;
-}
+} /*Pop up divs */
 .hide-flash1, .hide-flash2, .hide-flash3, .hide-flash4, .hide-flash5{
     display:none;
     position: absolute;
@@ -202,7 +202,7 @@ small{
 }
 h6, .smallAd2 p{
     font-size:13px;
-    margin:5px
+    margin:5px;
 }
 .leftNewsBar{
     display: flex;
@@ -411,7 +411,7 @@ h6, .smallAd2 p{
 .kalka-one img{
     width: 190px;
     height: 108px;
-    margin: 2vh
+    margin: 2vh;
 }
 .one, .kalkalist{
     display: flex;
