@@ -443,7 +443,9 @@ h6, .smallAd2 p{
     align-items: center;
     margin-top: 4vh;
     gap: 4vh;
-    height: 116vh;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 .y-sec-head{ /* Logos */
     display: flex;
@@ -476,13 +478,13 @@ h6, .smallAd2 p{
     text-align: right; 
 }
 .yp-cont-img img{
-    width: 371px;
+    width: 30vw;
 }
 .img-txt{
-    position: absolute;
+    position: relative;
     color:#fff;
     font-size: 12px;
-    width: 40vw;
+    width: 30vw;
     margin: 0;
     padding-bottom: 10px;
     padding-right: 5px;
@@ -492,20 +494,21 @@ h6, .smallAd2 p{
     color: #b7b7b7;
 }
 .img-txt h1{
-    width:300px;
+    width:25vw;
 }
 .i1,.i2,.i3{
-    bottom: 40vh;
+    bottom: 17vh;
 }
 .i4,.i5,.i6{
-    bottom:1vh;
+    bottom:17vh;
 }
 .month-btm{
     display: flex;
     color: #fff;
     border-radius: 20px;
     border: solid #fff;
-    width: 13vw;
+    width: fit-content;
+    padding:0 2%;
     height: 5vh;
     justify-content: center;
     align-items: center;
