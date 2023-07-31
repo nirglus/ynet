@@ -99,25 +99,22 @@ li:hover{
     display: flex;
     background-color: #f3f8f9;
     margin-top:25px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    height: 100px;
 }
 .news-flashes p{
     width:16vw;
     padding: 0 8px;
     font-size: 14px;
+  
 }
 .flash1:hover, .flash2:hover, .flash3:hover,.flash4:hover,.flash5:hover{
     color: #1217ac;
     cursor: pointer;
 }
-.dotted{  /* Border between flashes */
-    display: flex;
-    align-items: center;
-    width:0%;
-    height: 14vh;
-    border: 0.1px dotted #000;;
-    position:relative;
-    top:2vh;
-    margin: 0 0 0 1%;
+.flash1,.flash2,.flash3,.flash4{
+    border-left: 1.5px dotted #000;
 }
 .flash6{
     display: flex;
@@ -145,13 +142,13 @@ h5:hover{
     right: 18vw;
 }
 .hide-flash3{
-    right: 37vw;
+    right: 35vw;
 }
 .hide-flash4{
-    left: 26.5vw;
+    left: 29vw;
 }
 .hide-flash5{
-    left: 8vw;
+    left: 11vw;
 }
 .flash1:hover + .hide-flash1, .flash2:hover + .hide-flash2, .flash3:hover + .hide-flash3, .flash4:hover + .hide-flash4, .flash5:hover + .hide-flash5{
     display:flex;
