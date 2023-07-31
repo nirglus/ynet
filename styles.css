@@ -101,7 +101,7 @@ li:hover{
     margin-top:25px;
 }
 .news-flashes p{
-    width:202px;
+    width:16vw;
     padding: 0 8px;
     font-size: 14px;
 }
@@ -136,22 +136,22 @@ h5:hover{
 .hide-flash1, .hide-flash2, .hide-flash3, .hide-flash4, .hide-flash5{
     display:none;
     position: absolute;
-    top:425px;
+    top:75vh;
     flex-direction: column;
     background-color: #fff;
     box-shadow: 0 0 6px 2px rgba(217, 217, 217, 0.5);
 }
 .hide-flash2{
-    right: 230px;
+    right: 18vw;
 }
 .hide-flash3{
-    right: 465px;
+    right: 37vw;
 }
 .hide-flash4{
-    right: 695px;
+    left: 26.5vw;
 }
 .hide-flash5{
-    left: 120px;
+    left: 8vw;
 }
 .flash1:hover + .hide-flash1, .flash2:hover + .hide-flash2, .flash3:hover + .hide-flash3, .flash4:hover + .hide-flash4, .flash5:hover + .hide-flash5{
     display:flex;
@@ -214,7 +214,7 @@ h6, .smallAd2 p{
     background-color: #DE1A1A;
     color: #fff;
     gap:1vw;
-    width:611px;
+    width:48vw;
     height: 110px; 
 }
 .secondBar{
@@ -222,7 +222,7 @@ h6, .smallAd2 p{
     background-color: #1417AC;
     color: #fff;
     gap:1vw;
-    width:611px;
+    width:48vw;
     height: 110px; 
 }
 .forthBar{
@@ -230,7 +230,7 @@ h6, .smallAd2 p{
     background-color: #0c1c3a;
     color: #fff;
     gap:1vw;
-    width:611px;
+    width:48vw;
     height: 115px; 
 }
 .firstBarImg{
@@ -485,7 +485,7 @@ h6, .smallAd2 p{
     position: absolute;
     color:#fff;
     font-size: 12px;
-    width: 371px;
+    width: 40vw;
     margin: 0;
     padding-bottom: 10px;
     padding-right: 5px;
